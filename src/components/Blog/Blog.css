@@ -1,0 +1,16 @@
+.blog-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.questions {
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+}
