@@ -54,7 +54,6 @@ const Cart = (props) => {
             </div>
 
             <p>Selected items: {quantity}</p>
-            <p>Total age: {age}s </p>
         </div >
     );
 };

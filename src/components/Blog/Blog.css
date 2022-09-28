@@ -9,6 +9,16 @@
     gap: 20px;
 }
 
+/* smaller device  */
+@media screen and (max-width: 576px) {
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
+
 .questions {
     border-radius: 20px;
     background-color: aliceblue;

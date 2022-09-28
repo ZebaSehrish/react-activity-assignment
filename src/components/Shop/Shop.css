@@ -27,3 +27,47 @@
     gap: 45px;
 
 }
+
+/* media queries */
+@media only screen and (max-width: 1920px) {
+    .activities-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 45px;
+
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .activities-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+
+    }
+
+    .shop-container {
+        display: grid;
+        grid-template-columns: 2fr;
+
+    }
+}
+
+/* smaller device  */
+@media screen and (max-width: 576px) {
+
+    .activities-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+
+    }
+
+    .shop-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
