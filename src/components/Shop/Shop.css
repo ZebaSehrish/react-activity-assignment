@@ -1,0 +1,29 @@
+.container {
+    padding-left: 30px;
+}
+
+.container h2 {
+    color: rgb(60, 118, 228);
+}
+
+.main-content {
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.cart-container {
+    background-color: white;
+}
+
+.activities-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+
+}

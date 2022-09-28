@@ -1,0 +1,83 @@
+.cart {
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+    /* text-align: center; */
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-info img {
+    width: 100px;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+
+.user-details {
+    display: flex;
+    height: 100px;
+    background-color: rgb(188, 217, 241);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.break-time-container {
+    height: 60px;
+    background-color: rgb(188, 217, 241);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.break-time-container button {
+    border: 0;
+    background-color: white;
+    border-radius: 300px;
+    margin: 5px;
+    padding: 15px;
+    font-weight: 600;
+
+}
+
+.break-time-container button:hover {
+    background-color: rgb(60, 118, 228);
+}
+
+.exercise-details-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.exercise-details-container p {
+    height: 60px;
+    background-color: rgb(188, 217, 241);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise-details-container span {
+    margin-right: 70px;
+    font-weight: 700;
+}
+
+.btn-completion {
+    height: 60px;
+    width: 350px;
+    background-color: rgb(60, 118, 228);
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
