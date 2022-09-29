@@ -2,11 +2,12 @@
     padding-left: 30px;
 }
 
-.container h2 {
+.container h1 {
     color: rgb(60, 118, 228);
 }
 
-.main-content {
+.header-content {
+    text-align: center;
     background-color: aliceblue;
     padding: 30px;
 }

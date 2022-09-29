@@ -45,16 +45,12 @@ const Shop = () => {
         addToDb(selectedActivity.id);
     }
 
-    // const handleAddToBreak = (second) => {
-    //     const newBreakTime = [second];
-    //     console.log(newBreakTime);
-    // }
-
     const [breakTime, setBreakTime] = useState([]);
     const handleAddToBreak = (second) => {
         const newBreakTime = [second];
         setBreakTime(newBreakTime);
         console.log(newBreakTime);
+        //console.log(breakTime);
     }
 
 
@@ -62,10 +58,10 @@ const Shop = () => {
         <div className='container'>
 
             <div className='shop-container'>
-                <div className='main-content'>
+                <div className='header-content'>
                     <div>
-                        <h2>The Activity Club
-                        </h2>
+                        <h1>The Activity Club
+                        </h1>
                         <p>Select Today's Exercise</p>
                     </div>
                     <div className="activities-container">
@@ -82,6 +78,7 @@ const Shop = () => {
                     <Cart
                         cart={cart}
                         breakTime={breakTime}
+                        // newBreakTime={newBreakTime}
                         handleAddToBreak={handleAddToBreak}>
                     </Cart>
                 </div>

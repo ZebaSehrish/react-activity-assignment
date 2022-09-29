@@ -4,7 +4,7 @@ import './Cart.css';
 const Cart = (props) => {
     const { cart } = props;
     const { handleAddToBreak } = props;
-    const { breakTime, newBreakTime } = props;
+    const { breakTime } = props;
 
     let total = 0;
     let age = 0;
@@ -42,22 +42,22 @@ const Cart = (props) => {
             <div className='break-time-container'>
                 <button onClick={() => { handleAddToBreak(10) }}>10s</button>
                 <button onClick={() => { handleAddToBreak(20) }}>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={() => { handleAddToBreak(30) }}>30s</button>
+                <button onClick={() => { handleAddToBreak(40) }}>40s</button>
+                <button onClick={() => { handleAddToBreak(50) }}>50s</button>
             </div>
             <div className='exercise-details-container'>
                 <h3>Exercise Details</h3>
                 <p><span>Exercise time</span>{total}s</p>
                 {/* fix break time */}
-                <p><span>Break time</span>{newBreakTime}s </p>
+                <p><span>Break time</span>{breakTime[0]}s </p>
             </div>
             <div >
                 <button className='btn-completion'>Activity Completed</button>
             </div>
 
             <p>Selected items: {quantity}</p>
-            <p>selected break time:{breakTime.length}</p>
+            <p>selected break time:{ }</p>
         </div >
     );
 };
