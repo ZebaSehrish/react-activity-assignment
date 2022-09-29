@@ -9,6 +9,15 @@
     gap: 20px;
 }
 
+/* medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 /* smaller device  */
 @media screen and (max-width: 576px) {
     .blog {

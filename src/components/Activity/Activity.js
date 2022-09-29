@@ -5,6 +5,7 @@ import './Activity.css';
 
 const Activity = ({ activity, handleAddToCart }) => {
     const { name, img, time, description, age } = activity;
+    console.log();
     return (
         <div className='activity'>
             <img src={img} alt="" />

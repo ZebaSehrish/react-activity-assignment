@@ -7,6 +7,7 @@ import './Shop.css';
 const Shop = () => {
     const [activities, setActivities] = useState([]);
     const [cart, setCart] = useState([]);
+
     useEffect(() => {
         fetch('activities.json')
             .then(res => res.json())
@@ -43,6 +44,20 @@ const Shop = () => {
         setCart(newCart);
         addToDb(selectedActivity.id);
     }
+
+    // const handleAddToBreak = (second) => {
+    //     const newBreakTime = [second];
+    //     console.log(newBreakTime);
+    // }
+
+    const [breakTime, setBreakTime] = useState([]);
+    const handleAddToBreak = (second) => {
+        const newBreakTime = [second];
+        setBreakTime(newBreakTime);
+        console.log(newBreakTime);
+    }
+
+
     return (
         <div className='container'>
 
@@ -64,7 +79,11 @@ const Shop = () => {
                     </div>
                 </div>
                 <div className="cart-container">
-                    <Cart cart={cart}></Cart>
+                    <Cart
+                        cart={cart}
+                        breakTime={breakTime}
+                        handleAddToBreak={handleAddToBreak}>
+                    </Cart>
                 </div>
             </div >
         </div>

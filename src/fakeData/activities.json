@@ -2,73 +2,82 @@
   {
     "id": "1es2413b9-2d54",
     "name": "Yoga",
+    "description": "Yoga offers physical and mental health benefits. Yoga can become an integral part of your treatment and potentially hasten healing.",
     "time": 120,
     "img": "https://i0.wp.com/www.yogabasics.com/yogabasics2017/wp-content/uploads/2021/05/Bedtime-Yoga-for-Beginners.jpeg",
-    "age": 1,
+    "age": "16-60",
     "quantity": 0
   },
   {
     "id": "9007f166f-1d04",
     "name": "Lifting Weights",
     "time": 50,
+    "description": " Weight Lifting uses the force of gravity in the form of weighted bars, dumbbells or weight stacks in order to oppose the force.",
     "img": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/Fitness-Exercise/642x361_IMAGE_2_How_Many_Calories_Do_You_Burn_Lifting_Weights.jpg?w=1155&h=758",
-    "age": 1,
+    "age": "18-40",
     "quantity": 0
   },
   {
     "id": "8436d72b-67gh",
     "name": "Aerobic Exercise",
     "time": 70,
+    "description": "Aerobic exercise is performed by repeating sequences of light-to-moderate intensity activities for extended periods of time.",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtebBOfyCaHOOLer-o6uC6lW3JgEOMoBr1w&usqp=CAU",
-    "age": 49,
+    "age": "12-40",
     "quantity": 0
   },
   {
     "id": "6e5690d3-557b",
     "name": "Plank",
     "time": 90,
+    "description": "There are many benefits of planking as planks are an excellent abdominal and core exercise.",
     "img": "https://www.mensjournal.com/wp-content/uploads/mf/planks_for_abs_main_0.jpg?w=1188&h=630&crop=1&quality=86&strip=all",
-    "age": 19,
+    "age": "15-30",
     "quantity": 0
   },
   {
     "id": "2d0c13c2-54e4",
     "name": "Pilates",
     "time": 80,
+    "description": " Pilates is a form of exercise which concentrates on strengthening the body with an emphasis on core strength.",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeQiihrIaLIGOlIRy24x8GLGOxiK_x_EtYGw&usqp=CAU",
-    "age": 15,
+    "age": "15-25",
     "quantity": 0
   },
   {
     "id": "c9j7f410-d28f",
     "name": "Pushup",
     "time": 60,
+    "description": "Pushups are a simple and effective bodyweight movement that can help increase strength in your upper body and core.",
     "img": "https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg",
-    "age": 50,
+    "age": "13-50",
     "quantity": 0
   },
   {
     "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
     "name": "Martial Arts",
+    "description": "Martial arts are systems of combat practiced for self-defense; military and law enforcement applications; physical, mental development.",
     "time": 260,
     "img": "https://images.squarespace-cdn.com/content/v1/5a3afc7390badee4df34b165/1536949169949-LUO15Y0Z8X5RWLANJOHX/Learn+Martial+Arts",
-    "age": 46,
+    "age": "5-20",
     "quantity": 0
   },
   {
     "id": "k5803f97-966f",
     "name": "Squats",
     "time": 45,
+    "description": "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.",
     "img": "https://blog.fitbit.com/wp-content/uploads/2016/10/ArmStanding.jpg",
-    "age": 29,
+    "age": "12-40",
     "quantity": 0
   },
   {
     "id": "t4220958-06d2",
     "name": "Swimming",
     "time": 300,
+    "description": "Swimming is an individual or team racing sport that requires the use of one's entire body to move through water.",
     "img": "https://th-i.thgim.com/public/sport/qi55z5/article32928120.ece/alternates/LANDSCAPE_1200/25SM1MIHIRAMBRE",
-    "age": 8,
+    "age": "13-50",
     "quantity": 0
   }
 ]
