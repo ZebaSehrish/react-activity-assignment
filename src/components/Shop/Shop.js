@@ -46,7 +46,6 @@ const Shop = () => {
         setCart(newCart);
         addToDb(selectedActivity.id);
     }
-
     const [breakTime, setBreakTime] = useState([]);
     const handleAddToBreak = (second) => {
         const newBreakTime = [...breakTime, second];
@@ -80,7 +79,6 @@ const Shop = () => {
                     <Cart
                         cart={cart}
                         breakTime={breakTime}
-                        // newBreakTime={newBreakTime}
                         handleAddToBreak={handleAddToBreak}>
                     </Cart>
                 </div>
