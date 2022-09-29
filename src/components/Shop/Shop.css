@@ -12,6 +12,7 @@
     padding: 30px;
 }
 
+
 .shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -19,7 +20,7 @@
 }
 
 .cart-container {
-    background-color: white;
+    background-color: rgb(30, 30, 139);
 }
 
 .activities-container {

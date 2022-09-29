@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Activity from '../Activity/Activity';
@@ -59,7 +61,8 @@ const Shop = () => {
 
             <div className='shop-container'>
                 <div className='header-content'>
-                    <div>
+                    <div >
+                        <FontAwesomeIcon icon={faDumbbell} ></FontAwesomeIcon>
                         <h1>The Activity Club
                         </h1>
                         <p>Select Today's Exercise</p>

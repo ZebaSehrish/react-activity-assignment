@@ -1,5 +1,7 @@
 import React from 'react';
+import { App } from '../Toast/Toast';
 import './Cart.css';
+
 
 const Cart = (props) => {
     const { cart } = props;
@@ -52,14 +54,14 @@ const Cart = (props) => {
                 {/* fix break time */}
                 <p><span>Break time</span>{breakTime[0]}s </p>
             </div>
-            <div >
-                <button className='btn-completion'>Activity Completed</button>
-            </div>
+            <App></App>
+
 
             <p>Selected items: {quantity}</p>
             <p>selected break time:{ }</p>
         </div >
     );
 };
+
 
 export default Cart;
