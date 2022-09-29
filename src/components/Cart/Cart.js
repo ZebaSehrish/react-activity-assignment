@@ -7,11 +7,9 @@ const Cart = (props) => {
     const { cart } = props;
     const { handleAddToBreak } = props;
     const { breakTime } = props;
-
     let total = 0;
     let age = 0;
     let quantity = 0;
-    //  let selectedBreakTime = 0;
     for (const activity of cart) {
         quantity = quantity + activity.quantity;
         total = total + activity.time * activity.quantity;
@@ -50,15 +48,12 @@ const Cart = (props) => {
             </div>
             <div className='exercise-details-container'>
                 <h3>Exercise Details</h3>
+                <p>Selected Activities: {quantity}</p>
                 <p><span>Exercise time</span>{total}s</p>
                 {/* fix break time */}
                 <p><span>Break time</span>{breakTime[0]}s </p>
             </div>
             <App></App>
-
-
-            <p>Selected items: {quantity}</p>
-            <p>selected break time:{ }</p>
         </div >
     );
 };

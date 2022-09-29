@@ -49,11 +49,10 @@ const Shop = () => {
 
     const [breakTime, setBreakTime] = useState([]);
     const handleAddToBreak = (second) => {
-        const newBreakTime = [second];
+        const newBreakTime = [...breakTime, second];
         setBreakTime(newBreakTime);
-        console.log(newBreakTime);
-        //console.log(breakTime);
     }
+    console.log(useState());
 
 
     return (
@@ -87,29 +86,6 @@ const Shop = () => {
                 </div>
             </div >
         </div>
-        // <div className='container'>
-        //     <div>
-        //         <h2>The Activity Club
-        //         </h2>
-        //         <p>Select Today's Exercise</p>
-        //     </div>
-        //     <div className='shop-container'>
-
-        //         <div className="products-container">
-        //             {
-        //                 products.map(product => <Product
-        //                     key={product.id}
-        //                     product={product}
-        //                     handleAddToCart={handleAddToCart}
-        //                 ></Product>)
-        //             }
-        //         </div>
-        //         <div className="cart-container">
-        //             <Cart cart={cart}></Cart>
-        //         </div>
-        //     </div >
-        // </div>
-
     );
 };
 
